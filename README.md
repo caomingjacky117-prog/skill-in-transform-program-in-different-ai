@@ -68,6 +68,18 @@ After:  paste file → AI: "Here's how your project got here… Your next step i
         share them? I have 2 questions about the open risks, then I'll start."
 ```
 
+## Use Cases
+
+**🔋 Usage limit hit mid-project.** Gemini says "you've reached your limit" while your feature is half-built. Export the handoff, paste it into Kimi, and continue in five minutes instead of waiting for tomorrow's quota or re-explaining everything.
+
+**🧰 Best tool for each stage.** You researched a topic in Gemini (long context), now you want Claude Code to implement it, and later ChatGPT to polish the docs. One handoff file per transition — each AI picks up exactly where the last one stopped, no re-briefing.
+
+**🔄 Switching providers for good.** Cancelling a subscription? Batch-export every active project into handoff files before you lose access. They sit in a folder as plain markdown — your project state belongs to you, not to the platform. Import them anywhere, anytime.
+
+**👥 Handing work to a teammate.** Your colleague uses a different AI than you. Send them the handoff file: they get the goal, the decisions *with reasons*, the file index, and the next steps — better than most human-to-human handovers.
+
+**📏 Same AI, full context window.** Even without switching platforms: when a marathon session bloats and the model starts forgetting, export a handoff and open a fresh chat. The new session starts sharp with the distilled state.
+
 ## Quick Start
 
 1. **On the source AI**: paste the export prompt from `references/source-guides.md` into your project conversation. Save the output as `PROJECT-HANDOFF.md`. Download any generated files (e.g. .xlsx) separately — text can't carry files.
@@ -195,6 +207,18 @@ Format version: PROJECT-HANDOFF v1.0 · License: [MIT](LICENSE)
        索引里的 3 个文件这台机器上没有，你打算怎么给我？
        关于未决风险我有 2 个问题，问完就开工。"
 ```
+
+### 使用场景
+
+**🔋 用量到限，项目做到一半。** Gemini 提示"已达用量上限"，而你的功能才写了一半。导出交接文件粘贴到 Kimi，五分钟后继续干——不用等明天的额度，也不用重新解释。
+
+**🧰 每个阶段用最强的工具。** 在 Gemini 里做调研（长上下文），交给 Claude Code 写实现，再找 ChatGPT 润色文档。每次切换生成一份交接文件——每个 AI 都精确从上一个停下的地方接手，不用重新对齐。
+
+**🔄 彻底换平台。** 要退订了？在失去访问权之前，把所有进行中的项目批量导出成交接文件。它们就是文件夹里的纯 markdown——项目状态属于你自己，不属于平台。随时、随地、随 AI 导入。
+
+**👥 把活交接给同事。** 同事用的 AI 和你不一样？把交接文件发给他：目标、带理由的决策、文件索引、下一步，全在里面——比大多数人和人之间的交接都靠谱。
+
+**📏 同一个 AI，上下文满了。** 不换平台也用得上：马拉松式对话臃肿到模型开始遗忘时，导出交接文件开个新会话。新会话带着提炼后的状态，轻装上阵。
 
 ### 快速开始
 

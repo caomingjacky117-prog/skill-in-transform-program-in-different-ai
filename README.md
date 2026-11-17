@@ -114,7 +114,7 @@ python scripts/validate_handoff.py PROJECT-HANDOFF.md
 
 ---
 
-Format version: PROJECT-HANDOFF v1.0 · License: use and modify freely
+Format version: PROJECT-HANDOFF v1.0 · License: [MIT](LICENSE)
 
 ---
 
@@ -227,4 +227,4 @@ python scripts/validate_handoff.py PROJECT-HANDOFF.md
 
 ---
 
-格式版本：PROJECT-HANDOFF v1.0 · 许可：随意使用与修改
+格式版本：PROJECT-HANDOFF v1.0 · 许可：[MIT](LICENSE)
